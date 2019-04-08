@@ -91,8 +91,15 @@ h2 {
   }
 }
 
-@media (min-width: 1012px) {
-.col-lg-8 {
-    width: 69.66667%;
+.gutter-condensed {
+  .f3 {
+    line-height: 1 !important;
+    font-size: 15px !important;
+  }
 }
+
+@media (min-width: 1012px) {
+  .col-lg-8 {
+      width: 69.66667%;
+  }
 }
